@@ -72,6 +72,11 @@ body {
     box-shadow: 0 0 20px 3px #ffade8;
     font-size: 7vmin;
     color :#ff34bf;
+    @media (max-width : 1026px) {
+        height: 50%;
+        width:65%;
+        padding:0;
+    }
 
 }
 .newGame {
