@@ -12,6 +12,9 @@ body {
 .winnerDisplay{
     height:20vmin;
     font-size: 2.5rem;
+    @media (max-width : 1026px) {
+        font-size: 3vh;
+    }
 }
 
 .winnerScreen{
@@ -25,6 +28,9 @@ body {
     padding: 10px;
     background-color: rgba(255, 173, 232, 0.8);
     z-index: 1;
+    @media (max-width:1026px){
+        height:100vmin ;
+    }
 }
 
 .screenContainer{
@@ -62,6 +68,11 @@ body {
     align-items: center; 
     gap: 2.0vmin;
     padding: 10px;
+    @media (max-width : 1026px) {
+        height: 60vmin;
+        width:60vmin;
+        padding:0;
+    }
 }
 
 .box {
@@ -72,11 +83,7 @@ body {
     box-shadow: 0 0 20px 3px #ffade8;
     font-size: 7vmin;
     color :#ff34bf;
-    @media (max-width : 1026px) {
-        height: 50%;
-        width:65%;
-        padding:0;
-    }
+    
 
 }
 .newGame {
@@ -87,6 +94,10 @@ body {
     color: #ff00ae;
     border: 1px solid #ff00ae;
     border-radius: 14px;
+     @media (max-width:1026px){
+        font-size:3vmin;
+        width:20vmin;
+    }
 }
 .newGame:hover{
     background-color: #ff34bf;
